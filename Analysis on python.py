@@ -3,7 +3,7 @@ import pandas as pd
 import  matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("C:/Users/Mohd Rizwan/Downloads/Telegram Desktop/Python Data analytics/Python_Amazon_Sales_Analysis-main/Amazon Sale Report.csv")
+df = pd.read_csv("C:/Users/Mohd Rizwan/Downloads/Da Project/Amazon Analysis Using Python/Python_Amazon_Sales_Analysis-main/Amazon Sale Report.csv")
 
 df.shape
 df.head()
@@ -29,11 +29,11 @@ df['Date']=pd.to_datetime (df['Date'])
 
 df.columns
 
-df.rename(columns = {'Qty': 'Quantity'})
+df.rename(columns = {'Qty': 'Quantity'},inplace = True)
 
 df.describe(include = 'object')
 
-df[['Qty', 'Amount']].describe()
+df[['Quantity', 'Amount']].describe()
 
 ax = sns.countplot(x = 'Size', data = df, hue = 'Size')
 
