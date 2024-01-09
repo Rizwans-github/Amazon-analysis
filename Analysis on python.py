@@ -5,6 +5,7 @@ This Python project explores Amazon sales data, aiming to sharpen data analysis 
 Using libraries like NumPy, Pandas, Matplotlib, and Seaborn, the focus is on understanding product sizes, the impact of 
 order fulfillment, and key sales metrics. Through data cleaning and visualization, the project aims to reveal trends 
 and insights, enhancing our understanding of Amazon sales dynamics.
+
 """
 
 
@@ -110,7 +111,7 @@ plt.show()
 """
 Conclusion:
 
-To sum it up, this solo Python project provided hands-on experience in analyzing Amazon sales data. By exploring 
-product sizes, order fulfillment, and sales metrics, we gained practical insights. Cleaning the data and creating visuals 
+To sum it up, this project provided hands-on experience in analyzing Amazon sales data. By exploring 
+product sizes, order fulfillment, and sales metrics, I gained practical insights. Cleaning the data and creating visuals 
 contributed to a deeper understanding of Amazon sales dynamics. It's been a journey of learning through real-world data analysis.
 """
